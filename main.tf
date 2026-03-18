@@ -15,8 +15,8 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
-
+    organization = "hcp-standard-testing"
+    project      = "jdp-project"
     workspaces {
       name = "gh-actions-demo"
     }
